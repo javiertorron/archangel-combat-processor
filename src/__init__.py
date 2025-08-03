@@ -8,7 +8,7 @@ from .models import (
     ServerState,
     to_dict,
 )
-from .persistence import save_encounter, load_encounter
+from .persistence import save_encounter, load_encounter, EncounterRepository
 from .network import (
     discover_servers,
     DiscoveryService,
@@ -54,6 +54,7 @@ __all__ = [
     "to_dict",
     "save_encounter",
     "load_encounter",
+    "EncounterRepository",
     "discover_servers",
     "DiscoveryService",
     "ConnectionManager",
