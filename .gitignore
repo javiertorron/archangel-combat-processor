@@ -13,3 +13,8 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
