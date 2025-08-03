@@ -96,4 +96,8 @@ Gestionar desconexiones de forma segura.
 [Servidor] ---> start_encounter ---> Todos
 [Servidor] ---> turn_start --------> Jugador activo
 [Servidor] ---> update_state ------> Jugador
+[Servidor] ---> encounter_state ---> Todos
 [Servidor] ---> turn_end ----------> Todos
+```
+
+Este diagrama resume los mensajes clave intercambiados durante un combate.
